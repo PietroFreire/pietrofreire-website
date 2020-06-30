@@ -8,6 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /* Reset */
 body, p, a, ul, li, h1, h2{
     margin: 0px;
@@ -102,7 +104,7 @@ body{
 #sobre{
     background-color: black;
     border-radius: 50px;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 50px 0px 50px;
 }
 
 #section3 > article > p{
@@ -113,13 +115,14 @@ body{
 /* ----------[PORTFÓLIO]---------- */
 #section4{
     background-color: black;
+    grid-template: repeat(4, 1fr);
 }
 
 #port{
     text-align: center;
     background-color: var(--textColor);
     border-radius: 50px;
-    margin: 0px 170px 0px 170px; 
+    margin: 0px 70px 0px 70px;
 }
 
 #section4 > article{
@@ -142,14 +145,14 @@ body{
 #curi{
     background-color: black;
     border-radius: 50px;
-    margin: 0px 120px 0px 120px;
+    margin: 0px 40px 0px 40px;
 }
 
 #section5 > article > p{
     color: black;
     text-decoration: bold;
     font-size: 19px;
-    text-align: justify;
+    text-align: left;
 }
 
 .link-curi{
@@ -171,7 +174,7 @@ body{
 #contato{
     background-color: var(--textColor);
     border-radius: 50px;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 60px 0px 60px;
 }
 
 #section6 > article > p{
@@ -274,6 +277,7 @@ footer{
     }
 }
 
+
 /* Desktops */
 @media screen and (min-width: 1200px){
        
@@ -301,6 +305,9 @@ footer{
 /* ----------[SOBRE]---------- */
     #port{
         margin: 0px 400px 0px 400px;
+    }
+    #section3 > article > p{
+        font-size: 20px
     }
     
 /* ----------[CURIOSIDADES]---------- */ 

@@ -1,7 +1,7 @@
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .column {
@@ -11,9 +11,9 @@
 }
 
 .column img {
-  margin-top: 10px;
-  vertical-align: middle;
-  width: 100%;
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 @media screen and (min-width: 960px) {

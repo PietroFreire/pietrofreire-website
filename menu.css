@@ -3,12 +3,15 @@
     --textColor: rgb(69, 197, 75);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .topnav {
     position: -webkit-sticky; /* Necessário para funcionar no Safari */
     position: sticky;
     top: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
 .topnav a {
