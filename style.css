@@ -55,7 +55,7 @@ body{
 #section1 > article{
     grid-column: 3/10;
     text-align: center;
-    font-family: 'Monda', sans-serif;
+    font-family: 'Almarai', sans-serif;
     margin-bottom: px;
 }
 
@@ -104,7 +104,6 @@ body{
 }
 
 #sobre{
-    font-family: 'Almarai', sans-serif;
     background-color: black;
     border-radius: 50px;
     margin: 0px 50px 0px 50px;
