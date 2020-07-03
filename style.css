@@ -59,7 +59,7 @@ body{
     margin-bottom: px;
 }
 
-#section1 > article > h4{
+#section1 > article > h1{
     font-size: 41px;
     color: var(--textColor);
 }
