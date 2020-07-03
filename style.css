@@ -57,7 +57,7 @@ body{
 }
 
 #section1 > article{
-    grid-column: 3/10;
+    grid-column: 2/12;
     text-align: center;
     font-family: 'Almarai', sans-serif;
     margin-bottom: px;
