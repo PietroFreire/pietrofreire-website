@@ -76,7 +76,7 @@ body{
     background: radial-gradient(ellipse at center, rgba(0,0,0,0.4) 30%,rgba(0,0,0,0.4) 76%,rgba(0,0,0,0.4) 100%);
 }
 #section2 > article {
-    grid-column: 3/11;
+    grid-column: 2/12;
     font-size: 18px;
     color: white;
 }

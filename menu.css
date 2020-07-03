@@ -21,7 +21,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
+    height: 16px;
 }
 
 .topnav a:hover {
@@ -36,7 +37,7 @@
 
 .topnav .icon {
     display: none;
-    height: 20px;
+    height: 16px;
 }
 
 @media screen and (max-width: 960px) {
