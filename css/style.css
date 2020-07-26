@@ -30,7 +30,7 @@ html{
 /* Estilos Básicos */
 body{
     overflow-x: hidden;
-    background-image: url(imgs/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     background-attachment: fixed;
     color: white;
 }
