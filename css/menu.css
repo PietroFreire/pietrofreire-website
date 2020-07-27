@@ -1,16 +1,21 @@
 /* Variáveis */
 :root {
-    --textColor: rgb(69, 197, 75);
+    --textColorMenu: #00b8e4;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+#line-header{
+  padding: 2px;
+  background-color: var(--textColorMenu);
+}
+
 .topnav {
-    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -31,7 +36,7 @@
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: var(--textColorMenu);
     color: white;
 }
 
@@ -84,7 +89,7 @@
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 4px;
-  background-color: var(--textColor);
+  background-color: var(--textColorMenu);
   margin: 2px 0;
   transition: 0.4s;
 }
