@@ -16,6 +16,9 @@
         <meta name="keywords" content="desenvolvimento, desenvolvedor, Freelancer, sao paulo, são paulo, sp, web, desenvolvedor web, desenvolvimento web, sites, sistemas, php, mysql, sql, jquery, javascript, java, api facebook, api twitter, html, css, python profissional, freela, android, ios, wordpress, loja virtual, e-commerce, aplicativos, aplicações, software, analista de sistemas, nerd," />
 
         <link rel="stylesheet" type="text/css" href="css/style.css" async/>
+        <link rel="stylesheet" type="text/css" href="css/menu.css" async/>
+
+        <script type="text/javascript" src="js/menu.js" async></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174906944-1" async></script>
@@ -31,20 +34,35 @@
 
     <body>
 
-        <div class="container-return">
-            <a href="https://pietrofreire.com"><p class="return"><< RETURN</p></a>
-        </div><!--Container-Return-->
+        <header>
+            <div id="line-header"></div>
+            <div class="topnav" id="myTopnav">
+            <a href="#line-header" class="active">Home</a>
+            <a href="#container-about">Sobre</a>
+            <a href="#container-portfolio">Portfólio</a>
+            <a href="#container-curiosities">Curiosidades</a>
+            <a href="blog/index.html">Blog</a>
+            <a href="#container-contact">Contato</a>
+            <a href="docs/Pietro-Freire-CV.pdf"  target="_blank">Curriculo</a>
+            <a href="docs/Historico.pdf"  target="_blank">Desempenho Acadêmico</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunctionNav(); myFunctionBars(this)">
+                <div class="container">
+                <div class="bar1" id="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                </div>
+            </a>
+            </div> <!--Top-Nav-->
+
+        </header>
 
         <section class="container-coming-soon">
-            <h1>COMING SOON...</h1>
-            <div class="container-bar">
-                <div class="progress-bar"></div>
-            </div>
+            
                 <a href="https://api.whatsapp.com/send?phone=5511944416999"><img class="icons" src="../imgs/icons/whatsapp.ico"></a>
                 <a href="mailto:freiregabriel98@gmail.com"><img class="icons" src="../imgs/icons/mail.ico"></a>
-                <a href="https://github.com/PFreire98"><img class="icons" src="../imgs/icons/github.ico"></a>
+                <a href="https://github.com/PietroFreire"><img class="icons" src="../imgs/icons/github.ico"></a>
                 <a href="https://www.linkedin.com/in/pietrofreire/"><img class="icons" src="../imgs/icons/linkedin.ico"></a>
-                <a href="https://www.instagram.com/freirepietro98/"><img class="icons" src="../imgs/icons/insta.ico"></a>
+                <a href="https://www.instagram.com/pietrofreire_/"><img class="icons" src="../imgs/icons/insta.ico"></a>
         </section><!--Container-Coming-Soon-->
 
         <footer>

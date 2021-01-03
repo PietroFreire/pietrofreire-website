@@ -31,7 +31,6 @@ function w3RemoveClass(element, name) {
 }
 
 
-// Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -40,4 +39,13 @@ for (var i = 0; i < btns.length; i++) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
+}
+
+/* Card-Portfolio-Clicks */
+function yourMovie(){
+  window.open('https://github.com/PietroFreire/YourMovie', '_blank');
+}
+
+function parisLuxury(){
+  window.open('https://github.com/PietroFreire/ParisLuxury', '_blank');
 }
