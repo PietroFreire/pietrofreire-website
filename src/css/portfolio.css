@@ -1,0 +1,177 @@
+.portfolio {
+  width: 100%;
+  margin-top: var(--margin-top);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.portfolio .title {
+  width: 130px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px 15px 30px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 3px solid var(--color-green);
+  color: var(--color-lightWhite);
+  font-weight: bold;
+}
+
+.portfolio .title > div {
+  width: 100%;
+  display: flex;
+}
+
+.portfolio .title .cd {
+  padding: 0px 10px 0px 10px;
+}
+
+.portfolio .portfolio {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.article .link {
+  position: absolute;
+  align-self: flex-end;
+}
+
+.article .link a {
+  text-decoration: none;
+  color: var(--color-magenta);
+}
+
+.article .link a:hover {
+  text-decoration: none;
+  color: var(--color-green);
+}
+
+.article .portfolio-name {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-lightWhite);
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 75%;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  box-shadow: var(--color-black) 0px 3px 8px;
+  transition: .5s;
+}
+
+.portfolio-description p {
+  color: var(--color-lightWhite);
+}
+
+.portfolio-description ul li i {
+  color: var(--color-green);
+}
+
+.yourmovie .article:hover {
+  box-shadow: var(--color-blue2) 0px 3px 8px;
+}
+
+.parisluxury .article:hover {
+  box-shadow: var(--color-orange) 0px 3px 8px;
+}
+
+.pietrofreire .article:hover {
+  box-shadow: var(--color-blue2) 0px 3px 8px;
+}
+
+.article .portfolio-name .title-card {
+  color: var(--color-green);
+}
+
+.portfolio-description ul li {
+  list-style: none;
+  color: var(--color-lightWhite);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container-image {
+  position: relative;
+  margin-top: 50px;
+  min-width: 350px;
+  max-width: 600px;
+  height: 200px;
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+#image-yourmovie{
+  background: var(--color-blue2);
+  box-shadow: 0px 0px 15px var(--color-blue2);
+}
+
+#image-parisluxury{
+  height: 228px;
+  background: var(--color-orange);
+  box-shadow: 0px 0px 15px var(--color-orange);
+}
+
+#image-pietrofreire{
+  background: var(--color-blue2);
+  box-shadow: 0px 0px 15px var(--color-blue2);
+}
+
+.container-image a {
+  text-decoration: none;
+}
+
+.container-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.container-image:hover img:nth-child(3) {
+  transform: translate(30px, -30px);
+  opacity: 1;
+}
+
+.container-image:hover img:nth-child(2) {
+  transform: translate(20px, -20px);
+  opacity: .75;
+}
+
+.container-image:hover img:nth-child(1) {
+  transform: translate(10px, -10px);
+  opacity: .5;
+}
+
+@media screen and (min-width: 800px) {
+  .portfolio .portfolio {
+    width: 85%;
+    height: 80%;
+    flex-direction: row;
+  }
+
+  .portfolio .title {
+    font-size: 1.2rem;
+    width: 160px;
+  }
+
+  #image-parisluxury{
+    margin-left: 60px;
+  }
+
+}

@@ -1,0 +1,84 @@
+.overview {
+  overflow: hidden;
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.overview .title {
+  width: 150px;
+  padding: 15px 40px 15px 40px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 3px solid var(--color-green);
+  color: var(--color-lightWhite);
+  font-weight: bold;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+.pietro {
+  border-radius: 40px;
+  background-color: var(--background-color);
+  box-shadow: var(--color-black) 0px 3px 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.pietro span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 5px 0px 5px 0px;
+}
+
+.pietro a:link{
+  text-decoration: none;
+}
+
+.chave-0 {
+  color: var(--color-orange);
+}
+
+.chave-1 {
+  color: var(--color-orange);
+}
+
+.pietro .line {
+  padding-left: 30px;
+}
+
+.key {
+  color: var(--color-purpleLight);
+}
+
+.two-point {
+  color: var(--color-magenta);
+}
+
+.value {
+  color: var(--color-yellow);
+}
+
+.overview .tooltip {
+  text-decoration: underline;
+}
+
+.overview .tooltip:hover {
+  color: var(--color-magenta);
+}
+
+.comma {
+  color: var(--color-lightWhite);
+}
+
+.number {
+  color: var(--color-blue);
+}
+

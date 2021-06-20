@@ -1,0 +1,22 @@
+footer{
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.4) 30%,rgba(0,0,0,0.4) 76%,rgba(0,0,0,0.4) 100%);
+    font-family: 'Roboto', sans-serif;
+    margin-top: var(--margin-top);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+span{
+    font-weight: bold;
+    color: var(--color-purple2);
+}
+
+#end{
+    padding: 2px;
+    background-color: var(--color-purple2);
+}

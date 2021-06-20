@@ -1,0 +1,99 @@
+.curiosities-container {
+  width: 100%;
+  margin-top: var(--margin-top);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.curiosities-container .title {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 40px 15px 40px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 3px solid var(--color-green);
+  color: var(--color-lightWhite);
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.curiosities-container .title > div {
+  width: 100%;
+  display: flex;
+}
+
+.curiosities-container .title .cd {
+  padding: 0px 10px 0px 10px;
+}
+
+.curiosities-article {
+  margin-top: 45px;
+  width: 75%;
+  padding: 30px;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.4) 30%,rgba(0,0,0,0.4) 76%,rgba(0,0,0,0.4) 100%);
+  border-radius: 40px;
+  transition: .5s;
+}
+
+.curiosities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: var(--color-lightWhite);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#title-devices{
+  margin-top: 15px;
+}
+
+#text-devices{
+  margin-top: 10px;
+  text-align: left;
+}
+
+.text i {
+  color: var(--color-green);
+}
+
+.text ul li {
+  list-style: none;
+  color: var(--color-lightWhite);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.text span {
+  color: var(--color-magenta);
+}
+
+.text span:hover {
+  color: var(--color-green);
+}
+
+.curiosities-images{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.curiosities-images img {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1054px) {
+  .curiosities .curiosities-images img {
+    width: 125px;
+  }
+}

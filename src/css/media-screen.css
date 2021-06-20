@@ -1,0 +1,105 @@
+@media screen and (min-width: 600px) {
+    .pietro {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .pietro {
+        width: 60%;
+    }
+
+    .pietro span {
+        font-size: 1rem;
+    }
+
+    .overview .title {
+        font-size: 1.2rem;
+        width: 200px;
+    }
+
+    .about-container .title {
+        font-size: 1.2rem;
+        width: 125px;
+    }
+
+    .about img {
+        max-width: 300px;
+        margin-right: 20px;
+    }
+
+    .about-article .text p{
+        font-size: 1.2rem;
+    }
+
+    .portfolio .portfolio {
+        width: 85%;
+        height: 80%;
+        flex-direction: row;
+    }
+
+    .portfolio-name p {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-description p {
+        font-size: 1rem;
+    }
+
+    .container-image {
+        margin-left: 50px;
+        transform: rotate(-30deg) skew(25deg) scale(0.9);
+    }
+
+    .curiosities-container .divider .title {
+        font-size: 1.2rem;
+        width: 200px;
+    }
+
+    .curiosities-container .text p{
+        font-size: 1.1rem;
+    }
+
+    .curiosities-container .text span{
+        font-size: 1rem;
+    }
+
+    .contact .divider .title {
+        font-size: 1.2rem;
+        width: 140px;
+    }
+
+    footer p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1054px) {
+
+    .pietro {
+        width: 500px;
+    }
+
+    .pietro span {
+        font-size: 1.2rem;
+    }
+
+    .about{
+        flex-direction: row;
+    }
+
+    .contact .contact-article{
+        width: 777px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .portfolio .article {
+        width: 550px;
+    }
+
+    .container-image {
+        margin-left: 150px;
+    }
+}
