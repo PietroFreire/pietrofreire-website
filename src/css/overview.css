@@ -82,3 +82,11 @@
   color: var(--color-blue);
 }
 
+@media screen and (min-width: 800px) {
+
+  .overview .title {
+    font-size: 1.2rem;
+    width: 200px;
+  }
+
+}

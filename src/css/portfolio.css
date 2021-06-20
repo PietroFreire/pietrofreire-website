@@ -175,3 +175,18 @@
   }
 
 }
+@media screen and (min-width: 1054px) {
+
+  .pietro {
+    width: 500px;
+  }
+
+  .pietro span {
+    font-size: 1.2rem;
+  }
+
+  .about{
+    flex-direction: row;
+  }
+
+}

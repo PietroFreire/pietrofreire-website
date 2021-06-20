@@ -14,12 +14,7 @@
         font-size: 1rem;
     }
 
-    .overview .title {
-        font-size: 1.2rem;
-        width: 200px;
-    }
-
-    .about-container .title {
+    .about-container .divider .title {
         font-size: 1.2rem;
         width: 125px;
     }
