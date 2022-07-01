@@ -72,11 +72,11 @@
   color: var(--color-green);
 }
 
-.next{
+.jpmorgan{
   color: var(--color-green);
 }
 
-.next:hover {
+.jpmorgan:hover {
   cursor: pointer;
   color: var(--color-magenta);
 }
